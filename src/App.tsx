@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+require('dotenv').config();
+//const token = process.env.VITE_TOKEN_API;
 
 function App() {
   const [count, setCount] = useState(0)

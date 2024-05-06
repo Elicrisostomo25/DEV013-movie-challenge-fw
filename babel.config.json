@@ -1,0 +1,11 @@
+{
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "pragma": "dom", // Cambia el pragma utilizado (por defecto es React.createElement)
+          "throwIfNamespace": false // Permite el uso de nombres de espacio XML en JSX
+        }
+      ]
+    ]
+  }

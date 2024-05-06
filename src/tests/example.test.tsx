@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { Home } from "../pages/home";
+import App from "../App";
 
 describe("Examples", () => {
   it("should be a teapot", () => {
@@ -8,7 +8,7 @@ describe("Examples", () => {
   });
 
   it("should render Home", () => {
-    render(<Home />);
+    render(<App />);
     screen.debug();
   });
 });
